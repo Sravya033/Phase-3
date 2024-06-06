@@ -6,9 +6,6 @@ def BFS(start,graph,visited):
     return visited
 
 
-
-
-
 graph={
     "A":["B","C"],
     "B":["A","C","D"],
