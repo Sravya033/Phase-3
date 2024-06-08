@@ -27,7 +27,7 @@ def findNthTermUsingTabulation(n):
     # Whatever base condition we wrote 
     # recursive solutin, we need to 
     # initialize them 
- 
+    cache[0] = 0
     cache[1] = 1 
     cache[2] = 1 
     # 1 - wherever 'n' is present, replace it with index 
