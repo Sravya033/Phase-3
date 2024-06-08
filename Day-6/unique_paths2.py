@@ -52,5 +52,5 @@ class Solution(object):
                     rightWay = cache[row][col + 1]
                     cache[row][col] = downWay + rightWay 
             return cache[0][0]
- 
+        
         return tabulationApproach()
