@@ -6,7 +6,7 @@ def findFirstOccurrence(nums, target):
         mid = (left + right) // 2 
         if nums[mid] == target:
             result = mid 
-            right = mid - 1 
+            left = mid + 1 
         elif nums[mid] > target:
             right = mid - 1 
         else:
